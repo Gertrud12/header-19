@@ -7,38 +7,45 @@
     font-family: DM Sans, sans-serif;
     
 }
-
 .navbar-brand{
   overflow: hidden;
-    display: flex;
-    justify-content:center;
+   display: flex;
+   justify-content:center;
+   color: #1E0E62;
 }
-
-.brand{
-  font-weight: bold;
-  font-size: 24px;
-  font-family: DM Sans, sans-serif;
-  color: #1E0E62;
-}
-
 .navbar {
-    overflow: hidden;
-    display: flex;
-    justify-content:center;
-  }
-  
-  .navbar a {
-    color: #A1A1B0;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-  }
+   overflow: hidden;
+   display: flex;
+   justify-content:center;
+ }
+ .navbar a {
+   color: #A1A1B0;
+   text-align: center;
+   padding: 10px 10px;
+   font-size: 18px;
+ }
+ 
+ .navba a{
+   color: #A1A1B0 !important;
+   text-align: center;
+   font-size: 28px;
+ }
 
 
   .head-image{
-    width: 80%;
+    width: 100%;
 }
+
+.head-image img {
+  width: 50%;
+}
+
+@media screen and (max-width: 650px){
+  .head-image img{
+    width: 50%;
+  }
+}
+
 
 .para-item{
     color: #bebed0;
